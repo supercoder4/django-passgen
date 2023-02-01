@@ -3,7 +3,7 @@
 import os
 import sys
 
-#need to make some changes regarding exposed port
+#need to add few more things to get a customised port to expose.
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'passgen.settings')
     try:
